@@ -1,0 +1,102 @@
+/* Corpo da página */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+/* Conteúdo principal */
+#conteudo-fixo, #questionario {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Questionário */
+#questionario {
+  border: 2px solid #003366;
+  background: #f8f8f8;
+}
+
+#questionario h2 {
+  text-align: center;
+  color: #003366;
+}
+
+/* Perguntas */
+.pergunta-container {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.pergunta {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Respostas */
+.resposta-container input[type="text"] {
+  padding: 5px;
+  width: 70%;
+  max-width: 250px;
+  margin-right: 5px;
+}
+
+.resposta-container label {
+  display: block;
+  margin: 3px 0;
+}
+
+/* Botões */
+button {
+  padding: 6px 12px;
+  border: none;
+  background: #004080;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f5296;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+  padding: 15px;
+  text-align: center;
+  background: #003366;
+  color: white;
+  font-size: 0.9em;
+}
