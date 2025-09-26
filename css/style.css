@@ -45,6 +45,16 @@ header p {
   text-align: center;
   color: #003366;
 }
+#imagens {
+  text-align: center;
+  padding: 20px;
+}
+
+#imagens img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Perguntas */
 .pergunta-container {
@@ -100,3 +110,4 @@ footer {
   color: white;
   font-size: 0.9em;
 }
+
